@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WTT Control - 개인정보처리방침</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans KR', sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.8;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            color: #1E3A5F;
+            border-bottom: 2px solid #1E3A5F;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #2c5282;
+            margin-top: 30px;
+        }
+        .update-date {
+            color: #666;
+            font-size: 14px;
+        }
+        .highlight {
+            background-color: #e6f3ff;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .contact {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>WTT Control 개인정보처리방침</h1>
+    <p class="update-date">최종 업데이트: 2025년 12월 31일</p>
+
+    <div class="highlight">
+        <strong>요약:</strong> WTT Control 앱은 개인정보를 수집하지 않습니다. 모든 데이터는 사용자의 기기에서만 처리되며, 외부 서버로 전송되지 않습니다.
+    </div>
+
+    <h2>1. 수집하는 개인정보</h2>
+    <p>WTT Control은 <strong>어떠한 개인정보도 수집하지 않습니다.</strong></p>
+    <ul>
+        <li>사용자 계정 정보를 요구하지 않습니다</li>
+        <li>위치 정보를 수집하지 않습니다</li>
+        <li>기기 식별자를 수집하지 않습니다</li>
+        <li>사용 통계나 분석 데이터를 수집하지 않습니다</li>
+    </ul>
+
+    <h2>2. 앱의 기능 및 데이터 처리</h2>
+    <p>WTT Control은 로컬 네트워크 내의 IP 카메라를 관리하기 위한 앱입니다:</p>
+    <ul>
+        <li><strong>카메라 검색:</strong> 로컬 네트워크에서 UDP 브로드캐스트를 통해 카메라를 검색합니다</li>
+        <li><strong>카메라 설정:</strong> 카메라의 IP 주소, 서브넷 마스크, 게이트웨이를 설정합니다</li>
+        <li><strong>카메라 재부팅:</strong> 네트워크를 통해 카메라에 재부팅 명령을 전송합니다</li>
+        <li><strong>웹 설정 페이지:</strong> 카메라의 웹 인터페이스에 접근합니다</li>
+    </ul>
+    <p>모든 통신은 <strong>로컬 네트워크 내에서만</strong> 이루어지며, 인터넷을 통해 외부 서버로 데이터가 전송되지 않습니다.</p>
+
+    <h2>3. 네트워크 권한</h2>
+    <p>앱은 다음 권한을 사용합니다:</p>
+    <ul>
+        <li><strong>INTERNET:</strong> 로컬 네트워크 카메라와 통신</li>
+        <li><strong>ACCESS_NETWORK_STATE:</strong> 네트워크 연결 상태 확인</li>
+        <li><strong>CHANGE_NETWORK_STATE:</strong> USB-C LAN 어댑터 사용 시 네트워크 바인딩</li>
+    </ul>
+    <p>이러한 권한은 오직 로컬 네트워크 내 카메라 제어 목적으로만 사용됩니다.</p>
+
+    <h2>4. 데이터 저장</h2>
+    <p>앱은 영구적인 데이터를 저장하지 않습니다. 검색된 카메라 목록은 앱 실행 중에만 메모리에 유지되며, 앱 종료 시 삭제됩니다.</p>
+
+    <h2>5. 제3자 서비스</h2>
+    <p>WTT Control은 제3자 분석 도구, 광고 네트워크, 또는 외부 서비스를 사용하지 않습니다.</p>
+
+    <h2>6. 아동 개인정보</h2>
+    <p>이 앱은 산업용 카메라 관리 도구로서 아동을 대상으로 하지 않으며, 의도적으로 13세 미만 아동의 개인정보를 수집하지 않습니다.</p>
+
+    <h2>7. 개인정보처리방침 변경</h2>
+    <p>본 개인정보처리방침이 변경될 경우, 이 페이지를 통해 공지합니다. 중요한 변경 사항은 앱 업데이트 시 알림을 통해 안내할 수 있습니다.</p>
+
+    <div class="contact">
+        <h2>8. 문의처</h2>
+        <p>개인정보처리방침에 관한 문의사항이 있으시면 아래로 연락해 주세요:</p>
+        <ul>
+            <li><strong>회사명:</strong> Waytotec</li>
+            <li><strong>이메일:</strong> namho_kim@waytotec.com</li>
+            <li><strong>GitHub:</strong> <a href="https://github.com/Waytotec/Wtt-Mobile">github.com/waytotec</a></li>
+        </ul>
+    </div>
+
+    <p style="margin-top: 40px; text-align: center; color: #666; font-size: 14px;">
+        &copy; 2026 Waytotec. All rights reserved.
+    </p>
+</body>
+</html>
